@@ -1,0 +1,42 @@
+nav{
+    color:#fff;
+    width:100%;
+    padding:4px 0;
+    position:fixed;
+    top:0px;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    z-index:10;
+    height:70px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:5px 20px;
+    font-size:16px;
+
+}
+.btn{
+    background-color: #fff;
+    color:black;
+    font-size: 16px;
+    border-radius: 30px;
+    padding:14px 20px;
+    outline: 0;
+    border:0;
+}
+.dark-nav{
+    background-color: #212EA0;
+    transition: 0.5s;
+}
+.btn .dark-btn{
+    background-color: #fff;
+    color: #212EA0;
+    font-size: 16px;
+    border-radius: 30px;
+    padding:14px 20px;
+    outline: 0;
+    border:0;
+
+}
